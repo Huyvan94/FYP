@@ -94,7 +94,7 @@ if model.getStatus() == "optimal":
         if val == 1:
             count+=1
     print("Modelling time is: ", endTime-startTime)
-    print("Solvingtime is: ", solveEnd-solveStart)
+    print("Solving time is: ", solveEnd-solveStart)
     print("Fracture Numbers is:"+str(count))
     print("Nodes being removed: ")
     for i in range(n):
